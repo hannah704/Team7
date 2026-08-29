@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"33-29102025-081184";"";
+"REFERENCE";"395930602";"";
+"TraceParts.PartTitle";"Eurostyle Fixed Mount";"";
+"TraceParts.InstanceId";"33-29102025-081184CXS95HJZ701IT3DO1XAMHERGH";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"5.00mm Pitch Eurostyle Vertical Fixed Mount PCB Terminal Block, Green Housing, Low Profile, 2 Circuits";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.5";"";
