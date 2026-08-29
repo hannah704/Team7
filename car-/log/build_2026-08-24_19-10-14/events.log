@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.001791] (robot_nodes) JobQueued: {'identifier': 'robot_nodes', 'dependencies': OrderedDict()}
+[0.003908] (robot_nodes) JobStarted: {'identifier': 'robot_nodes'}
+[0.101312] (-) TimerEvent: {}
+[0.201687] (-) TimerEvent: {}
+[0.302822] (-) TimerEvent: {}
+[0.404109] (-) TimerEvent: {}
+[0.505717] (-) TimerEvent: {}
+[0.607346] (-) TimerEvent: {}
+[0.709042] (-) TimerEvent: {}
+[0.810808] (-) TimerEvent: {}
+[0.916644] (-) TimerEvent: {}
+[1.017859] (-) TimerEvent: {}
+[1.119401] (-) TimerEvent: {}
+[1.219941] (-) TimerEvent: {}
+[1.320577] (-) TimerEvent: {}
+[1.421709] (-) TimerEvent: {}
+[1.522278] (-) TimerEvent: {}
+[1.623105] (-) TimerEvent: {}
+[1.723843] (-) TimerEvent: {}
+[1.833555] (-) TimerEvent: {}
+[1.934696] (-) TimerEvent: {}
+[2.040975] (-) TimerEvent: {}
+[2.147618] (-) TimerEvent: {}
+[2.251151] (-) TimerEvent: {}
+[2.352401] (-) TimerEvent: {}
+[2.460329] (-) TimerEvent: {}
+[2.565461] (-) TimerEvent: {}
+[2.666703] (-) TimerEvent: {}
+[2.767506] (-) TimerEvent: {}
+[2.869349] (-) TimerEvent: {}
+[2.970346] (-) TimerEvent: {}
+[3.071654] (-) TimerEvent: {}
+[3.172077] (-) TimerEvent: {}
+[3.251257] (robot_nodes) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_nodes', 'build', '--build-base', '/home/youssef/car-/build/robot_nodes/build', 'install', '--record', '/home/youssef/car-/build/robot_nodes/install.log', '--install-scripts', '$base/lib/robot_nodes', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/youssef/car-/react/robot_nodes', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'youssef', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/youssef', 'OLDPWD': '/home/youssef/car-/react', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2551', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2573', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1c6e2d0810af36b6926ad8336a8c46b5', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'youssef', 'MANAGERPIDFDID': '8753', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'youssef', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '00860ce172f1443f864e7e0273daa43f', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '4cfe6bb23302b47c9c5fbe946a81b392', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S953T3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/youssef/car-/build/robot_nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1c6e2d0810af36b6926ad8336a8c46b5', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/youssef/car-/build/robot_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}, 'shell': False}
+[3.275855] (-) TimerEvent: {}
+[3.378141] (-) TimerEvent: {}
+[3.479012] (-) TimerEvent: {}
+[3.583566] (-) TimerEvent: {}
+[3.617658] (robot_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[3.638503] (robot_nodes) StdoutLine: {'line': b'creating ../../build/robot_nodes/robot_nodes.egg-info\n'}
+[3.638834] (robot_nodes) StdoutLine: {'line': b'writing ../../build/robot_nodes/robot_nodes.egg-info/PKG-INFO\n'}
+[3.639412] (robot_nodes) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_nodes/robot_nodes.egg-info/dependency_links.txt\n'}
+[3.639654] (robot_nodes) StdoutLine: {'line': b'writing entry points to ../../build/robot_nodes/robot_nodes.egg-info/entry_points.txt\n'}
+[3.639879] (robot_nodes) StdoutLine: {'line': b'writing requirements to ../../build/robot_nodes/robot_nodes.egg-info/requires.txt\n'}
+[3.640044] (robot_nodes) StdoutLine: {'line': b'writing top-level names to ../../build/robot_nodes/robot_nodes.egg-info/top_level.txt\n'}
+[3.640175] (robot_nodes) StdoutLine: {'line': b"writing manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'\n"}
+[3.684713] (-) TimerEvent: {}
+[3.686426] (robot_nodes) StdoutLine: {'line': b"reading manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'\n"}
+[3.688066] (robot_nodes) StdoutLine: {'line': b"writing manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'\n"}
+[3.690370] (robot_nodes) StdoutLine: {'line': b'running build\n'}
+[3.691195] (robot_nodes) StdoutLine: {'line': b'running build_py\n'}
+[3.691284] (robot_nodes) StdoutLine: {'line': b'creating /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes\n'}
+[3.691344] (robot_nodes) StdoutLine: {'line': b'copying robot_nodes/__init__.py -> /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes\n'}
+[3.691427] (robot_nodes) StdoutLine: {'line': b'copying robot_nodes/publisher.py -> /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes\n'}
+[3.691476] (robot_nodes) StdoutLine: {'line': b'copying robot_nodes/subscriber.py -> /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes\n'}
+[3.691523] (robot_nodes) StdoutLine: {'line': b'copying robot_nodes/py.typed -> /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes\n'}
+[3.691572] (robot_nodes) StdoutLine: {'line': b'running install\n'}
+[3.696075] (robot_nodes) StdoutLine: {'line': b'running install_lib\n'}
+[3.725788] (robot_nodes) StdoutLine: {'line': b'creating /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes\n'}
+[3.726009] (robot_nodes) StdoutLine: {'line': b'copying /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes/__init__.py -> /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes\n'}
+[3.726148] (robot_nodes) StdoutLine: {'line': b'copying /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes/py.typed -> /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes\n'}
+[3.726227] (robot_nodes) StdoutLine: {'line': b'copying /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes/publisher.py -> /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes\n'}
+[3.726282] (robot_nodes) StdoutLine: {'line': b'copying /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes/subscriber.py -> /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes\n'}
+[3.726681] (robot_nodes) StdoutLine: {'line': b'byte-compiling /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes/__init__.py to __init__.cpython-314.pyc\n'}
+[3.726930] (robot_nodes) StdoutLine: {'line': b'byte-compiling /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes/publisher.py to publisher.cpython-314.pyc\n'}
+[3.727494] (robot_nodes) StdoutLine: {'line': b'byte-compiling /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes/subscriber.py to subscriber.cpython-314.pyc\n'}
+[3.727652] (robot_nodes) StdoutLine: {'line': b'running install_data\n'}
+[3.727858] (robot_nodes) StdoutLine: {'line': b'creating /home/youssef/car-/install/robot_nodes/share/ament_index/resource_index/packages\n'}
+[3.728040] (robot_nodes) StdoutLine: {'line': b'copying resource/robot_nodes -> /home/youssef/car-/install/robot_nodes/share/ament_index/resource_index/packages\n'}
+[3.728209] (robot_nodes) StdoutLine: {'line': b'copying package.xml -> /home/youssef/car-/install/robot_nodes/share/robot_nodes\n'}
+[3.728311] (robot_nodes) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.749071] (robot_nodes) StdoutLine: {'line': b'Copying ../../build/robot_nodes/robot_nodes.egg-info to /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes-0.0.0-py3.14.egg-info\n'}
+[3.749890] (robot_nodes) StdoutLine: {'line': b'running install_scripts\n'}
+[3.784980] (-) TimerEvent: {}
+[3.879108] (robot_nodes) StdoutLine: {'line': b'Installing sensor_node script to /home/youssef/car-/install/robot_nodes/lib/robot_nodes\n'}
+[3.879378] (robot_nodes) StdoutLine: {'line': b"writing list of installed files to '/home/youssef/car-/build/robot_nodes/install.log'\n"}
+[3.885363] (-) TimerEvent: {}
+[3.936271] (robot_nodes) CommandEnded: {'returncode': 0}
+[3.991058] (-) TimerEvent: {}
+[4.058244] (robot_nodes) JobEnded: {'identifier': 'robot_nodes', 'rc': 0}
+[4.059091] (-) EventReactorShutdown: {}

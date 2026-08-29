@@ -1,0 +1,32 @@
+[0.919s] Invoking command in '/home/youssef/car-/react/robot_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/youssef/car-/build/robot_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_nodes build --build-base /home/youssef/car-/build/robot_nodes/build install --record /home/youssef/car-/build/robot_nodes/install.log --install-scripts $base/lib/robot_nodes --single-version-externally-managed install_data
+[1.232s] running egg_info
+[1.259s] writing ../../build/robot_nodes/robot_nodes.egg-info/PKG-INFO
+[1.261s] writing dependency_links to ../../build/robot_nodes/robot_nodes.egg-info/dependency_links.txt
+[1.261s] writing entry points to ../../build/robot_nodes/robot_nodes.egg-info/entry_points.txt
+[1.262s] writing requirements to ../../build/robot_nodes/robot_nodes.egg-info/requires.txt
+[1.262s] writing top-level names to ../../build/robot_nodes/robot_nodes.egg-info/top_level.txt
+[1.310s] reading manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+[1.311s] writing manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+[1.311s] running build
+[1.312s] running build_py
+[1.312s] copying robot_nodes/__init__.py -> /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes
+[1.312s] copying robot_nodes/publisher.py -> /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes
+[1.312s] copying robot_nodes/subscriber.py -> /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes
+[1.312s] copying robot_nodes/py.typed -> /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes
+[1.313s] running install
+[1.317s] running install_lib
+[1.338s] copying /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes/publisher.py -> /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes
+[1.338s] copying /home/youssef/car-/build/robot_nodes/build/lib/robot_nodes/subscriber.py -> /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes
+[1.338s] byte-compiling /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes/publisher.py to publisher.cpython-314.pyc
+[1.339s] byte-compiling /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes/subscriber.py to subscriber.cpython-314.pyc
+[1.340s] running install_data
+[1.340s] copying resource/robot_nodes -> /home/youssef/car-/install/robot_nodes/share/ament_index/resource_index/packages
+[1.340s] copying package.xml -> /home/youssef/car-/install/robot_nodes/share/robot_nodes
+[1.341s] running install_egg_info
+[1.370s] removing '/home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes-0.0.0-py3.14.egg-info' (and everything under it)
+[1.371s] Copying ../../build/robot_nodes/robot_nodes.egg-info to /home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages/robot_nodes-0.0.0-py3.14.egg-info
+[1.373s] running install_scripts
+[1.481s] Installing publisher script to /home/youssef/car-/install/robot_nodes/lib/robot_nodes
+[1.482s] Installing subscriber script to /home/youssef/car-/install/robot_nodes/lib/robot_nodes
+[1.482s] writing list of installed files to '/home/youssef/car-/build/robot_nodes/install.log'
+[1.525s] Invoked command in '/home/youssef/car-/react/robot_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/youssef/car-/build/robot_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/car-/install/robot_nodes/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_nodes build --build-base /home/youssef/car-/build/robot_nodes/build install --record /home/youssef/car-/build/robot_nodes/install.log --install-scripts $base/lib/robot_nodes --single-version-externally-managed install_data
