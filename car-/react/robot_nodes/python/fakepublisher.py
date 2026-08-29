@@ -1,15 +1,3 @@
-"""
-friend_sensor_node.py
-
-Placeholder for your friend's sensor-reading node. Publishes random
-fake readings on sensor_data — no serial code at all. This is exactly
-what your backend expects to receive; your friend just needs to
-replace the random number generation with real sensor reads once
-their hardware is ready.
-
-Run:
-    python3 friend_sensor_node.py
-"""
 
 import random
 
